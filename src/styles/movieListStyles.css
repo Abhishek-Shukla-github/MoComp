@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.movie-list-div{
+    border: 3px solid #60CEE9;
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(264.23deg, rgba(250, 248, 248, 0.27) -3.63%, rgba(247, 245, 245, 0.6) 96.37%);
+    cursor: pointer;
+}
+.movie-list-title{
+    color: #1C9BFF;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+}
+.movie-list-poster{
+    height: 50%;
+    width: 144px;
+    margin-right: 10px;
+}
+.movie-list-div:hover{
+    transform: scale(1.025);
+    transition: all 0.5s ease-in-out;
+}

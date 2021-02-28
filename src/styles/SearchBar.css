@@ -11,3 +11,8 @@
     color:#1C78FF;
     font-family: 'Montserrat', sans-serif;
 }
+.movies-list{
+    height: 100vh;
+    width: 40vw;
+    align-self: center;
+}
