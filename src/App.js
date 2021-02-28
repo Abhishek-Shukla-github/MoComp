@@ -5,7 +5,7 @@ import "./styles/App.css";
 function App() {
   return (
     <div className="App" className="root">
-      <Navbar/>
+      <Navbar />
       <div className="searchDiv">
         <SearchBar />
         <SearchBar />
